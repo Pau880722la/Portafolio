@@ -1,3 +1,16 @@
+# Caracteristicas del proyecto
+Para mi proyecto final del curso, desarrollé un portafolio personal utilizando React. A continuación, detallo las características principales y las tecnologías empleadas en el desarrollo:
+
+1.Componentes Reutilizables: Opté por una arquitectura basada en componentes reutilizables, lo que permite mantener el código organizado y fácil de mantener. Cada sección del portafolio, como el encabezado, habilidades de proyectos y el pie de página, se implementó como un componente separado, lo que facilita su reutilización y modificación en el futuro.
+
+2. Organización del Proyecto con React Router: Para gestionar la navegación entre las diferentes páginas del portafolio, utilicé React Router. Esto me permitió crear rutas específicas para cada página y mantener una experiencia de navegación fluida sin necesidad de recargar la página.
+
+3. Uso de Props y State: Implementé props para pasar datos entre los componentes de manera eficiente y state para gestionar el estado local de los componentes. Este enfoque me permitió crear una interfaz dinámica y reactiva, que se actualiza automáticamente en respuesta a las interacciones del usuario.
+
+4. Estilos con SASS: Para la estilización del portafolio, utilicé la librería SASS. Esta herramienta me permitió escribir estilos CSS más limpios y organizados mediante el uso de variables lo cual facilita la gestión de estilos en proyectos más grandes y complejos.
+
+En resumen, este proyecto de portafolio personal no solo demuestra mis habilidades técnicas en desarrollo web utilizando React, sino que también refleja mi capacidad para organizar y estructurar un proyecto de manera eficiente utilizando herramientas modernas como React Router y SASS.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
