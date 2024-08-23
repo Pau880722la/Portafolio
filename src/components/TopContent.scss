@@ -1,0 +1,16 @@
+@import '../variables.scss';
+
+.top-content{
+    display: flex;
+    align-content: center;
+    margin-bottom: 100px;
+    justify-content: space-between;
+    &__text{
+        width: 50%;
+        text-align: left;
+        margin-top: 100px;
+    }
+    &__image{
+        width: 50%;
+    }
+}

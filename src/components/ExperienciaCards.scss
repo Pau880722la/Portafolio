@@ -1,0 +1,70 @@
+@import '../variables.scss';
+.list{
+    position: relative;
+    &::before{
+        content: '';
+        position: absolute;
+        left: 50%; 
+        top: 0;
+        height: 100%; 
+        width: 0; 
+        border-left: 2px dashed black; 
+        transform: translateX(-50%); /* Ajusta para centrar la línea */
+    }
+    &-items{
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-around;
+        text-align: left;
+        position: relative;
+        margin-bottom: 50px;
+        &__left{
+            width: 50%;
+        }
+        &__right{
+            width: 45%;
+        }
+        &::before{
+            content: '';
+            position: absolute; 
+            top: 20%;
+            left: 50%;
+            width: 20px; 
+            height: 20px; 
+            border-radius: 50%; 
+            transform: translate(-50%, -50%); 
+            z-index: 1;
+        }
+        &::after{
+            content: '';
+            position: absolute; 
+            top: 20%;
+            left: 50%;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            border-style: double;
+            transform: translate(-50%, -50%);
+            background: $white;
+        }
+        &:nth-child(1)::before {
+            background-color: $primary_color;
+        }
+        &:nth-child(2)::before {
+            background-color: $third_color;
+        }
+        &:nth-child(3)::before {
+            background-color: $primary_color;
+        }
+        &:nth-child(4)::before {
+            background-color: $third_color;
+        }
+        &:nth-child(5)::before {
+            background-color: $primary_color;
+        }
+        &:nth-child(6)::before {
+            background-color: $third_color;
+        }
+    }
+}
+    
